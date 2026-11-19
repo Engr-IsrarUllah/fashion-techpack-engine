@@ -1,0 +1,33 @@
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+.keys_cache.json
+
+# Python virtual environment & cache
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large files & models (GitHub blocks files > 100MB)
+*.zip
+cloudy365_llama3_lora/
+loras/
+
+# Generated outputs
+static/pdfs/*.pdf
+static/images/*.jpg
+static/images/*.svg
+static/images/*.png
+
+# Logs
+*.log
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
